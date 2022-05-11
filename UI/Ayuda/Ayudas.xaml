@@ -1,0 +1,18 @@
+﻿<Window x:Class="Tarea_5_CrearUnRegistroConDetalleEnWpf.UI.Ayuda.Ayudas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea_5_CrearUnRegistroConDetalleEnWpf.UI.Ayuda"
+        mc:Ignorable="d"
+        Title="Ventana De Ayudas" Height="256" Width="363" WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Center">
+        <StackPanel>
+            <TextBlock Margin="15,20,40,0" TextWrapping="Wrap" TextAlignment="Center"><Bold>Saludos cordiales, bienvenidos damas y caballeros.</Bold></TextBlock>
+            <TextBlock Margin="15,20,65,0" TextWrapping="Wrap" TextAlignment="Center">En este programa puedes hacer lo siguiente.</TextBlock>
+            <TextBlock Margin="15,20,63,0" TextWrapping="Wrap" TextAlignment="Center">Puedes llenar los campos en la ventana Roles.</TextBlock>
+            <TextBlock Margin="15,20,70,0" TextWrapping="Wrap" TextAlignment="Center">Cuando se guarda presiona el boton buscar.</TextBlock>
+            <TextBlock Margin="15,20,50,0" TextWrapping="Wrap" TextAlignment="Center">Para poder encontrar la información usa el Id de indentificación que Usted ha escrito.</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
